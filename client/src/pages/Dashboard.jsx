@@ -85,7 +85,7 @@ const Dashboard = () => {
   return (
     <div className='h-full py-4'>
       <>
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-1 gap-10'>
           {stats?.map(({ icon, bg, label, total }, index) => (
             <Card key={index} icon={icon} bg={bg} label={label} count={total} />
           ))}
